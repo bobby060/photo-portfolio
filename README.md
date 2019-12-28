@@ -1,12 +1,18 @@
 # Django Photo Gallery Sample #
+My implementation of Django Photo Gallery
+Solution|Author(s)
+--------|---------
+Django Photo Gallery | Velin Georgiev ([@VelinGeorgiev](https://twitter.com/velingeorgiev))
 
-![Django Photo Gallery Sample Version](https://img.shields.io/badge/Version-0.0.4-green.svg)
+
+
+
+
+--------|----------
 
 ## Summary
 
 This sample contains a Django 2.0.x Image Gallery Site. The album images are optimized for performance. The Django Photo Gallery Sample is responsive and mobile/device friendly.
-
-![Django Photo Gallery Sample](./assets/django_photo_gallery_explore.gif)
 
 ### Create an album from the Django admin panel
 
@@ -42,10 +48,7 @@ Django Photo Gallery | Velin Georgiev ([@VelinGeorgiev](https://twitter.com/veli
 
 Version|Date|Comments
 -------|----|--------
-0.0.1|April 30, 2017 | Initial commit
-0.0.2|April 06, 2018 | Updated to python 3.6 and Django 2.0.4
-0.0.3|December 31, 2018 | Updated to Django 2.1.4 and Django-material 1.4.3
-0.0.4|July 19, 2019 | Updated to Django 2.2.3
+0.0.1 Initial commit from Velin Georgiev's branch.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -87,9 +90,3 @@ class AlbumImage(models.Model):
 ## Sample data cleanup
 To cleanup the sample data delete the sql lite database and the media folder files. Create new database and run the sample again.
 
-## No validation on the form
-This is sample. I decided to keep it simple and let the validation to be added by you.
-
-## Sharing is Caring
-
-Star if you like it :)
